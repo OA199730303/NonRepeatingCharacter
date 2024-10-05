@@ -23,6 +23,7 @@ class nonRepeatingCharacter{
 
 			if(count==1){
 			System.out.println("NonRepeatingCharacter: "+c1);
+				System.out.println("Element is Found Successfully");
 				c=1;
 			break;
 			}
