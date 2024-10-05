@@ -8,7 +8,7 @@ class nonRepeatingCharacter{
 
 		String s=sc.nextLine();
 		
-	
+		int c=0;
 		
 		for(int i=0;i<s.length();i++){
 			int count=0;
@@ -23,9 +23,14 @@ class nonRepeatingCharacter{
 
 			if(count==1){
 			System.out.println("NonRepeatingCharacter: "+c1);
+				c=1;
 			break;
 			}
 			
+		}
+
+		if(c==0){
+			System.out.println("There Is No NonRepeatingCharacters");
 		}
 		
 	}
